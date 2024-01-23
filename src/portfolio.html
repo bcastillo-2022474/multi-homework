@@ -1,13 +1,155 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./output.css">
 </head>
-<body>
-
+<body class="">
+<div class="bg-main text-gray-300 flex h-dvh overflow-hidden">
+    <nav class="p-5 bg-main-dark w-[30ch] shrink-0 grow-0">
+        <ul class="flex flex-col gap-2 w-full text-xl">
+            <li class="w-full flex flex-col">
+                <a href="" class="hover:bg-main-ultra-dark px-5 py-2 rounded">About Me</a>
+            </li>
+            <li class="w-full flex flex-col">
+                <a href="" class="hover:bg-main-ultra-dark px-5 py-2 rounded">Projects</a>
+            </li>
+            <li class="w-full flex flex-col">
+                <a href="" class="hover:bg-main-ultra-dark px-5 py-2 rounded">Habilidades</a>
+            </li>
+            <li class="w-full flex flex-col">
+                <a href="" class="hover:bg-main-ultra-dark px-5 py-2 rounded">CV</a>
+            </li>
+            <li class="w-full flex flex-col">
+                <a href="" class="hover:bg-main-ultra-dark px-5 py-2 rounded">Contact</a>
+            </li>
+            <li class="flex text-xl">
+                <a class="bg-main-dark cursor-pointer hover:bg-main-ultra-dark px-5 py-2 rounded">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="bg-main-dark cursor-pointer hover:bg-main-ultra-dark px-5 py-2 rounded">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="bg-main-dark cursor-pointer hover:bg-main-ultra-dark px-5 py-2 rounded">
+                    <i class="fa-brands fa-codepen"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="p-5 overflow-y-scroll ">
+        <div class="flex flex-col gap-5 lg:max-w-[80%]">
+            <section class="px-12 py-5 flex flex-col gap-5">
+                <article class="flex flex-col gap-3">
+                    <p class="">Hola 👋</p>
+                    <h1 class="text-7xl font-bold">
+                        Joao Castillo
+                    </h1>
+                    <p class="text-2xl">Web Developer</p>
+                    <p>
+                        Soy Joao Castillo, un desarrollador web de 18 años con 1.5 años de experiencia. Especializado en
+                        Frontend con Angular, React y Next. También sé de SQL y tengo conocimientos en backend con
+                        Express y Prisma. Aunque domino Java, mi fuerte es el desarrollo web.
+                    </p>
+                </article>
+                <article class="flex gap-5">
+                    <a class="bg-main-dark cursor-pointer hover:bg-main-ultra-dark px-5 py-2 rounded">Contacto</a>
+                    <a class="bg-main-dark cursor-pointer hover:bg-main-ultra-dark px-5 py-2 rounded">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a class="bg-main-dark cursor-pointer hover:bg-main-ultra-dark px-5 py-2 rounded">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a class="bg-main-dark cursor-pointer hover:bg-main-ultra-dark px-5 py-2 rounded">
+                        <i class="fa-brands fa-codepen"></i>
+                    </a>
+                </article>
+            </section>
+            <section class="px-12 flex flex-col gap-3">
+                <h2 class="text-5xl">Mis Proyectos</h2>
+                <ul class="flex flex-col gap-2">
+                    <li class="flex flex-col gap-2">
+                        <a class="flex p-3 gap-3 items-center cursor-pointer transition ease-in-out hover:scale-[102%]">
+                            <span class="border w-[200px] h-[150px] shrink-0"></span>
+                            <p class="shrink">
+                                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Culpa cum repellendus vitae
+                                rerum id delectus perferendis itaque unde architecto sapiente, ex est quo fugit officia
+                                qui error obcaecati amet reiciendis?
+                            </p>
+                        </a>
+                        <hr>
+                    </li>
+                </ul>
+            </section>
+            <section class="px-12 flex flex-col gap-4">
+                <h2 class="text-5xl">Habilidades</h2>
+                <ul class="flex gap-3">
+                    <i class="text-4xl text-green-600 fa-brands fa-node-js"></i>
+                    <i class="text-4xl text-yellow-400 fa-brands fa-js"></i>
+                    <i class="text-4xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                             viewBox="0 0 48 48">
+                            <path fill="#F44336"
+                                  d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"></path>
+                            <path fill="#F44336"
+                                  d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"></path>
+                            <g>
+                                <path fill="#1565C0"
+                                      d="M32.084 25.055c1.754-.394 3.233.723 3.233 2.01 0 2.901-4.021 5.643-4.021 5.643s6.225-.742 6.225-5.505C37.521 24.053 34.464 23.266 32.084 25.055zM29.129 27.395c0 0 1.941-1.383 2.458-1.902-4.763 1.011-15.638 1.147-15.638.269 0-.809 3.507-1.638 3.507-1.638s-7.773-.112-7.773 2.181C11.683 28.695 21.858 28.866 29.129 27.395z"></path>
+                                <path fill="#1565C0"
+                                      d="M27.935,29.571c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"></path>
+                                <path fill="#1565C0"
+                                      d="M18.686,32.739c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"></path>
+                                <path fill="#1565C0"
+                                      d="M36.281,36.632c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"></path>
+                                <path fill="#1565C0"
+                                      d="M39,38.604c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"></path>
+                            </g>
+                        </svg>
+                    </i>
+                    <i class="text-4xl text-blue-400 fa-brands fa-react"></i>
+                    <i class="text-4xl text-red-600 fa-brands fa-angular"></i>
+                    <i class="text-4xl ">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                             viewBox="0 0 48 48">
+                            <polygon fill="#40c4ff" points="26,4 6,24 12,30 38,4"></polygon>
+                            <polygon fill="#40c4ff" points="38,22 27,33 21,27 26,22"></polygon>
+                            <rect width="8.485" height="8.485" x="16.757" y="28.757" fill="#03a9f4"
+                                  transform="rotate(-45.001 21 33)"></rect>
+                            <polygon fill="#01579b" points="38,44 26,44 21,39 27,33"></polygon>
+                            <polygon fill="#084994" points="21,39 30,36 27,33"></polygon>
+                        </svg>
+                    </i>
+                </ul>
+            </section>
+            <section class="px-12 flex flex-col gap-4">
+                <h2 class="text-5xl">Contacto</h2>
+                <p>
+                    Puedes contactarme a través de mis redes sociales o enviandome un correo electronico a
+                    <a class="text-blue-600 cursor-pointer hover:underline">brandonjoaocastillo83@gmail.com</a> o
+                    usando el siguiente formulario:
+                </p>
+                <form class="flex mt-5 flex-col gap-5">
+                    <div class="grid grid-cols-2 gap-3">
+                        <input class="bg-inherit placeholder-neutral-600 border rounded px-5 py-2 w-full" type="text"
+                               placeholder="Nombre">
+                        <input class="bg-inherit placeholder-neutral-600 border rounded px-5 py-2 w-full" type="text"
+                               placeholder="Email">
+                        <input class="bg-inherit col-span-2 placeholder-neutral-600 border rounded px-5 py-2 w-full" type="text"
+                               placeholder="Asunto">
+                    </div>
+                    <textarea class="bg-inherit border px-5 py-2 w-full placeholder-neutral-600" rows="10" placeholder="Mensaje"></textarea>
+                    <button class="mt-3 w-full bg-main-dark cursor-pointer hover:bg-main-ultra-dark px-5 py-2 rounded">
+                        Enviar
+                    </button>
+                </form>
+            </section>
+        </div>
+    </div>
+</div>
 </body>
 </html>
