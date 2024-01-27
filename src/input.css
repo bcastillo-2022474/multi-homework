@@ -12,3 +12,7 @@
     /*-webkit-mask-image:linear-gradient(to bottom,transparent,10%,white,90%,transparent);*/
     mask-image: linear-gradient(to bottom, transparent, 10%, black, 90%, transparent)
 }
+
+.container-carousell img {
+  transition: transform 0.5s ease-in-out;
+}
