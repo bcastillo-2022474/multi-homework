@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-grid {
+    background-size: 100px 100px;
+    /*z-index:-2;*/
+    background-color: #29458f;
+    /*@apply bg-neutral-800;*/
+    background-image: url(../assets/img/bg-grid.png);
+    /*background-position-y:-9px;*/
+    /*-webkit-mask-image:linear-gradient(to bottom,transparent,10%,white,90%,transparent);*/
+    mask-image: linear-gradient(to bottom, transparent, 10%, black, 90%, transparent)
+}
+
+.container-carousell img {
+  transition: transform 0.5s ease-in-out;
+}
